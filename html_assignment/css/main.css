@@ -44,3 +44,12 @@ a {
     background-color: #EFF6EE;
     border-style: dashed;
 }
+
+/* changes background colour on hover & focus state of links */
+a:hover {
+    background-color: #748386;
+}
+
+a:focus {
+    background-color: #DA9F93;
+}
