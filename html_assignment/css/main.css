@@ -6,7 +6,7 @@ body {
 
 /* adds background colour to header and footer */
 header, footer {
-    background-color:#9B9987;
+    background-color:#273043;
 }
 
 /* class selector - changes colour of main heading of site */
@@ -20,6 +20,12 @@ header, footer {
 }
 
 /* changes ul from bullets to squares */
-ul {
+li {
     list-style-type: square;
 }
+
+/* nth child selector - adds background to odd list items of hobby list */
+li.hobby-item:nth-child(odd) {
+    background-color: #748386;
+}
+
