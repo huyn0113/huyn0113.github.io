@@ -1,0 +1,17 @@
+/* changes font family and font size to 18px */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px
+}
+
+/* adds background colour to header and footer */
+header, footer {
+    background-color:#9B9987;
+}
+
+/* class selector - changes colour of main heading of site */
+.important {
+    color:white;
+}
+
+/* adds extras to id my-image */
