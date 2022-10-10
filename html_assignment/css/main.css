@@ -29,3 +29,7 @@ li.hobby-item:nth-child(odd) {
     background-color: #748386;
 }
 
+/* removes bullets from nav ul */
+nav ul li {
+    list-style-type: none;
+}
