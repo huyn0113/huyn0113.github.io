@@ -33,3 +33,8 @@ li.hobby-item:nth-child(odd) {
 nav ul li {
     list-style-type: none;
 }
+
+/* removes underlines from links */
+a {
+    text-decoration: none;
+}
