@@ -38,3 +38,9 @@ nav ul li {
 a {
     text-decoration: none;
 }
+
+/* adds background and border to links */
+a {
+    background-color: #EFF6EE;
+    border-style: dashed;
+}
