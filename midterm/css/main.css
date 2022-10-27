@@ -3,3 +3,9 @@ body {
     background-color: #aad4cf;
 }
 
+/* changes appearance of h1 */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25pt;
+}
