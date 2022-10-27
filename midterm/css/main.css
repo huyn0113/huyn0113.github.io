@@ -3,6 +3,15 @@ body {
     background-color: #aad4cf;
 }
 
+/* centers content */
+body {
+    margin: auto;
+    width: 50%;
+    padding: 10px
+
+}
+
+
 /* changes appearance of h1 */
 h1 {
     font-family: Arial, Helvetica, sans-serif;
