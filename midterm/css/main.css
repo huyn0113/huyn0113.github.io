@@ -6,15 +6,23 @@ body {
 /* centers content */
 body {
     margin: auto;
-    width: 50%;
+    width: 60%;
     padding: 10px
 
 }
 
+/* changes size of header image */
+.banner {
+    width: 100%;
+}
 
 /* changes appearance of h1 */
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 25pt;
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 42%;
 }
