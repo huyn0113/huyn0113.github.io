@@ -6,6 +6,10 @@ body {
     width: 70%;
 }
 
+main {
+    background-color: #C3E9E5;
+}
+
 /* sizes & positions header image & text */
 .banner {
     max-width: 100%;
@@ -27,4 +31,37 @@ h1 {
     position: absolute;
     width: 100%;
     top: 60%;
+}
+
+/* positions and customizes nav bar */
+nav {
+    background-color: #C3E9E5;;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    border-left: 1px solid black;
+    
+}
+
+li:first-child {
+    border-left: none;
+}
+
+ul a {
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 10px;
+
+    
 }
