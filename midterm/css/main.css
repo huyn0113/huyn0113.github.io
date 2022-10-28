@@ -2,5 +2,6 @@
 body {
     background-color: #aad4cf;
     box-sizing: border-box;
+    margin: auto;
+    width: 60%;
 }
-
