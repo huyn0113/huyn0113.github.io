@@ -1,4 +1,6 @@
-/* sets background color */
+/* sets up backgound color and layout */
 body {
     background-color: #aad4cf;
+    box-sizing: border-box;
 }
+
