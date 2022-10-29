@@ -47,13 +47,13 @@ ul {
     text-align: center;
 }
 
-li {
+.nav-item {
     display: inline;
     border-left: 1px solid black;
     
 }
 
-li:first-child {
+nav-item:first-child {
     border-left: none;
 }
 
@@ -99,8 +99,21 @@ p {
 }
 
 /* sizes and customizes h3 for facts*/
-.facts {
+.facts-header {
     font-size: 20px;
     margin-left: 10px;
     margin-bottom: 15px;
+}
+
+.facts-list {
+    margin-bottom: 20px;
+}
+
+/* positions and sizes fact list */
+.fact-item {
+    list-style-type: circle;
+    float: left;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-right: 40px;
 }
