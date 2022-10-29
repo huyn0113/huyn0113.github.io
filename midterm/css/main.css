@@ -142,5 +142,13 @@ ul .fact-item::before {
 .contact {
     font-size: 20px;
     margin-left: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+/* adds box to the form */
+.box {
+    width: 1090px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
 }
