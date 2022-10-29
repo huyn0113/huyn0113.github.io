@@ -11,6 +11,10 @@ main {
     background-color: #C3E9E5;
 }
 
+footer {
+    background-color: #C3E9E5;
+}
+
 /* sizes & positions header image & text */
 .banner {
     max-width: 100%;
@@ -88,7 +92,15 @@ h2 {
 /* positions text beside image */
 p {
     margin-right: 20px;
+    margin-left: 10px;
     line-height: 1.5;
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
+/* sizes and customizes h3 for facts*/
+.facts {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
