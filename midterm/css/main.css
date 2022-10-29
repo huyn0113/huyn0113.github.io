@@ -137,3 +137,10 @@ ul .fact-item::before {
     clear: both;
     display: table;
 }
+
+/* sizes h3 for contact */
+.contact {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
