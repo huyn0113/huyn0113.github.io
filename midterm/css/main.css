@@ -111,9 +111,29 @@ p {
 
 /* positions and sizes fact list */
 .fact-item {
-    list-style-type: circle;
+    list-style-type: none;
     float: left;
     font-size: 15px;
-    margin-left: 25px;
+    margin-left: 17px;
     margin-right: 40px;
+}
+
+ul .fact-item::before {
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+}
+
+.facts {
+    margin-bottom: 20px;
+}
+
+/* clearfix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
