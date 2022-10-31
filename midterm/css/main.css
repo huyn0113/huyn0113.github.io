@@ -51,13 +51,13 @@ ul {
 
 .nav-item {
     display: inline;
-    border-left: 1px solid black;
     
 }
 
-nav-item:first-child {
-    border-left: none;
+.bar {
+    border-right: 1px solid black;
 }
+
 
 ul a {
     display: inline-block;
@@ -190,6 +190,14 @@ fieldset {
 
 footer {
     text-align: right;
+}
+
+/* adjusts copyright text */
+
+.copyright {
+    font-size: 12px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 
