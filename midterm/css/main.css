@@ -185,6 +185,15 @@ h4 {
     margin-bottom: 10px;
 }
 
+/* sets border outline to form */
+fieldset {
+    display: block;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+
 /* aligns footer copyright to left of page */
 
 footer {
