@@ -148,16 +148,28 @@ ul .fact-item::before {
 /* adds box to the form */
 .box {
     box-sizing: border-box;
-    width: 1125px;
-    border: 1px solid black;
-    padding: 20px;
+    border-style: solid;
     margin: 10px;
+
 }
 
 /* positions form layout */
 input[type=text] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 10px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
+
+textarea {
+    width: 100%;
+    padding: 30px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
