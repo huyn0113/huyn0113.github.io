@@ -44,7 +44,10 @@ h1 {
 
 /* sets nav bar background color */
 nav {
-    background-color: #C3E9E5;;
+    background-color: #C3E9E5;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 /* aligns nav bar vertically */
@@ -210,8 +213,3 @@ footer {
     padding-bottom: 15px;
     padding-top: 10px;
 }
-
-
-
-
-
