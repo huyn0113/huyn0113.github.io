@@ -188,6 +188,12 @@ h4 {
     margin-bottom: 10px;
 }
 
+/* aligns footer copyright to left of page */
+
+footer {
+    text-align: right;
+}
+
 
 
 
