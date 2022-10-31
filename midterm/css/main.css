@@ -1,4 +1,4 @@
-/* sets up backgound color and layout */
+/* sets up basic backgound color, layout and sizing */
 body {
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +17,7 @@ footer {
     background-color: #C3E9E5;
 }
 
-/* sizes & positions header image & text */
+/* sizes & positions banner image */
 .banner {
     max-width: 100%;
     height: auto;
@@ -26,11 +26,7 @@ footer {
     width: 100%;
 }
 
-.top {
-    position: relative;
-    text-align: center;
-}
-
+/* sizes & positions main heading title */
 h1 {
     color: white;
     font-family: arial;
@@ -40,25 +36,34 @@ h1 {
     top: 60%;
 }
 
-/* positions and customizes nav bar */
+/* overlays main heading title over top banner image */
+.top {
+    position: relative;
+    text-align: center;
+}
+
+/* sets nav bar background color */
 nav {
     background-color: #C3E9E5;;
 }
 
+/* aligns nav bar vertically */
 ul {
     text-align: center;
 }
 
+/* aligns nav bar to align horizontally */
 .nav-item {
     display: inline;
     
 }
 
+/* adds divders in nav bar */
 .bar {
     border-right: 1px solid black;
 }
 
-
+/* customizes stylistic appearance of nav bar */
 ul a {
     display: inline-block;
     font-size: 20px;
@@ -72,14 +77,14 @@ ul a {
     margin-bottom: 25px;    
 }
 
-/* sizes and customizes h2 */
+/* sizes & positions h2 */
 h2 {
     font-size: 25px;
     margin-bottom: 10px;
 
 }
 
-/* sizes image of lone starfish */
+/* sizes & positions image of lone starfish */
 .main-img {
     margin-right: 15px;
     margin-bottom: 20px;
@@ -97,17 +102,24 @@ p {
     margin-bottom: 20px;
 }
 
-/* sizes and customizes h3 for facts*/
+/* sizes and positions h3 for facts section*/
 .facts-header {
     font-size: 20px;
     margin-bottom: 15px;
 }
 
+/* sticks facts list to the left of page */
 .facts-list {
-    margin-bottom: 20px;
+    float: left;
 }
 
-/* positions and sizes fact list */
+/* creates space between facts and contact */
+.facts {
+    margin-bottom: 20px;
+    
+}
+
+/* positions and sizes items in fact list */
 .fact-item {
     list-style-type: none;
     float: left;
@@ -116,6 +128,7 @@ p {
     padding-right: 50px;
 }
 
+/* changes white bullets to black bullets in the facts list */
 ul .fact-item::before {
     content: "\2022";
     color: black;
@@ -125,10 +138,6 @@ ul .fact-item::before {
     margin-left: -1em;
 }
 
-.facts {
-    margin-bottom: 20px;
-}
-
 /* clearfix */
 .clearfix::after {
     content: "";
@@ -136,13 +145,13 @@ ul .fact-item::before {
     display: table;
 }
 
-/* sizes h3 for contact */
+/* sizes & positions h3 for contact form */
 .contact {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-/* positions form layout */
+/* sizes form boxes */
 input[type=text] {
     width: 100%;
     padding: 10px 20px;
@@ -150,6 +159,7 @@ input[type=text] {
     box-sizing: border-box;
 }
 
+/* sizes form box for comments */
 textarea {
     width: 100%;
     padding: 30px 20px;
@@ -157,15 +167,18 @@ textarea {
     box-sizing: border-box;
 }
 
-h4 {
+/* sizes h4 question for radio section of form */
+.contact-option {
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
+/* adds margin spacing to bottom of radio options of form */
 .options {
     margin-bottom: 15px;
 }
 
+/* customizes button */
 .button {
     background-color: transparent;
     text-transform: uppercase;
@@ -187,13 +200,11 @@ fieldset {
 }
 
 /* aligns footer copyright to left of page */
-
 footer {
     text-align: right;
 }
 
 /* adjusts copyright text */
-
 .copyright {
     font-size: 12px;
     padding-bottom: 15px;
