@@ -9,6 +9,8 @@ body {
 
 main {
     background-color: #C3E9E5;
+    margin: auto;
+    padding: 10px;
 }
 
 footer {
@@ -73,14 +75,12 @@ ul a {
 /* sizes and customizes h2 */
 h2 {
     font-size: 25px;
-    margin-left: 10px;
     margin-bottom: 10px;
 
 }
 
 /* sizes image of lone starfish */
 .main-img {
-    margin-left: 10px;
     margin-right: 15px;
     margin-bottom: 20px;
     max-width: 100%;
@@ -92,7 +92,6 @@ h2 {
 /* positions text beside image */
 p {
     margin-right: 20px;
-    margin-left: 10px;
     line-height: 1.5;
     font-size: 15px;
     margin-bottom: 20px;
@@ -101,7 +100,6 @@ p {
 /* sizes and customizes h3 for facts*/
 .facts-header {
     font-size: 20px;
-    margin-left: 10px;
     margin-bottom: 15px;
 }
 
@@ -114,8 +112,8 @@ p {
     list-style-type: none;
     float: left;
     font-size: 15px;
-    margin-left: 17px;
-    margin-right: 40px;
+    margin-left: 10px;
+    padding-right: 50px;
 }
 
 ul .fact-item::before {
@@ -141,7 +139,6 @@ ul .fact-item::before {
 /* sizes h3 for contact */
 .contact {
     font-size: 20px;
-    margin-left: 10px;
     margin-bottom: 10px;
 }
 
@@ -193,6 +190,7 @@ h4 {
 footer {
     text-align: right;
 }
+
 
 
 
