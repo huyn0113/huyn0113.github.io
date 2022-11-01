@@ -8,71 +8,118 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
+<!-- start of body content -->
 <body>
+    <!-- element tag that contains introduction & navigation of page & an ID that links reload to -->
     <header id="reload">
+        <!-- joins h1 title and img banner under div -->
         <div class="top">
+            <!-- main heading for web page -->
             <h1>Lone Starfish</h1>
+            <!-- banner image -->
             <img src="images/lone-starfish-wide.jpg" alt="image of a lone starfish against a cyan background" class="banner">
         </div>
+        <!-- creates nav bar -->
         <nav>
+            <!-- sets nav bar as unordered list -->
             <ul>
+                <!-- adds links that reload page when clicked -->
                 <li class="nav-item bar"><a href="#reload">Home</a></li>
                 <li class="nav-item bar"><a href="#reload">Story</a></li>
                 <li class="nav-item"><a href="#reload">Contact</a></li>
+            <!-- end of unordered list -->
             </ul>
+        <!-- end of nav bar -->
         </nav>
+    <!-- end of header -->
     </header>
+    <!-- element tag that contains main content of web page -->
     <main>
+        <!-- section 1 -->
         <article>
+            <!-- h2 title that represents the content -->
             <h2>Life of a Starfish</h2>
+            <!-- cropped image of the starfish -->
             <img src="images/lone-starfish.jpg" alt="image of a lone starfish" class="main-img">
+            <!-- paragraph containing details of the page -->
             <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
+        <!-- end of section 1-->
         </article>
+        <!-- section 2 -->
         <article class="facts">
+            <!-- clearfix for css reset -->
             <div class="clearfix">
+                <!-- h3 title representing facts with a class for specificity -->
                 <h3 class="facts-header">Facts About Starfish</h3>
+                <!-- set as an unordered list -->
                 <ul>
+                    <!-- list items with a clas sfor specificity -->
                     <li class="fact-item">Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
                     <li class="fact-item">Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                     <li class="fact-item">Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
                     <li class="fact-item">Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                 </ul>
+            <!-- end of clearfix -->
             </div>
+        <!-- end of section 3 -->
         </article>
+        <!-- section 4 -->
         <article>
+            <!-- h3 title for contact form with class for specificity -->
             <h3 class="contact">Contact to learn more</h3>
+            <!-- sets form -->
             <form action="#" method="get">
+                <!-- adds fieldset to outline information in the form -->
                 <fieldset>
+                    <!-- form section for name input -->
                     <div>
                         <label for="name">Your Name</label>
                         <input type="text" id="name" name="name">
                     </div>
+                    <!-- form section for email input -->
                     <div>  
                         <label for="email">Your Email</label>
                         <input type="text" id="email" name="email">
                     </div>
+                    <!-- form section for messgae input -->
                     <div>
                         <label for="message">Your Message</label>
                         <textarea id="message"></textarea>
                     </div>
+                    <!-- adds class for multiple choice section for css targetting -->
                     <div class="options">
+                        <!-- h4 title for multiple choice questions -->
                         <h4 class="contact-option">Would you like to visit the starfish?</h4>
+                        <!-- form input for yes -->
                         <label for="yes">Yes</label>
                         <input type="radio" id="yes" name="option" value="yes">
+                        <!-- form input for no -->
                         <label for="no">No</label>
                         <input type="radio" id="no" name="option" value="no">
+                        <!-- form input for maybe -->
                         <label for="maybe">Maybe</label>
                         <input type="radio" id="maybe" name="option" value="maybe">
+                    <!-- end of form options -->
                     </div>
+                    <!-- div seperating send button -->
                     <div>
+                        <!-- button to submit and send form -->
                         <button type="submit" class="button">Send</button>
                     </div>
+                <!-- end of fieldset -->
                 </fieldset>
+            <!-- end of form -->
             </form>
+        <!-- end of section 4 -->
         </article>
+    <!-- end of main content -->
     </main> 
+    <!-- footer containing copyright information -->
     <footer>
+        <!-- paragraph with copyright & class for specificity -->
         <p class="copyright">&#169; Lone Starfish.</p>
+    <!-- end of footer -->
     </footer>  
+<!-- end of body -->
 </body>
 </html>
