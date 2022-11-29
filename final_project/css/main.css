@@ -1,4 +1,38 @@
+/* STYLES NAVIGATION BAR */
 
+.navigation-container {
+    background-color: #222;
+    padding: 10px;
+}
 
+/* centers navigation categories */
+ul {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
 
+/* styles navigation text */
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #c78c06;
+    font-family: 'Open Sans', sans-serif;
+}
 
+/* adds flex to search bar */
+.search-bar {
+    display: flex;
+}
+
+/* widens search bar */
+.search-bar input {
+    flex-grow: 1;
+}
+
+/* sizes and colors search icon */
+.fa-search {
+    color: #c78c06;
+    border: 1px solid #c78c06;
+    padding: 10px;
+}
