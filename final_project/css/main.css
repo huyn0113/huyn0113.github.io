@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* STYLES NAVIGATION BAR */
 
 .navigation-container {
@@ -6,6 +10,7 @@
 }
 
 /* centers navigation categories */
+
 ul {
     display: block;
     text-align: center;
@@ -14,11 +19,37 @@ ul {
 
 /* styles navigation text */
 li a {
+    display: block;
     text-decoration: none;
     font-size: 18px;
     color: #c78c06;
-    font-family: 'Open Sans', sans-serif;
 }
+
+
+/* FLOAT LOGO */
+.logo {
+    /* float: left; */
+    display: block;
+}
+
+
+
+
+/* HOVER */
+a:hover {
+    background-color: #c78c06;
+    color: #222;
+}
+
+.home-button a:hover {
+   /* padding-top: 20% */
+}
+
+
+
+
+
+
 
 /* adds flex to search bar */
 .search-bar {
@@ -35,4 +66,24 @@ li a {
     color: #c78c06;
     border: 1px solid #c78c06;
     padding: 10px;
+}
+
+/****** PAGE TWO ******/
+
+.welcome-container {
+    background-image: url(/final_project/images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    
+}
+
+.welcome-information {
+    padding: 50px 10px;
+}
+
+.welcome-title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
 }
