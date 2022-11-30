@@ -11,7 +11,7 @@
     <!-- GOOGLE FONTS STYLESHEET -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="css/main.css">
     <title>Final Project</title>
@@ -21,9 +21,9 @@
     <header>
         <!-- NAVIGATION -->
         <div class="navigation-container">
-            <img src="images/logo.png" alt="image of three star media's logo">
             <ul id="home" class="nav-bar">
-                <li><a href="#home">Home</a></li>
+                <li><img src="images/logo.png" alt="image of three star media's logo" class="logo clearfix"></li>
+                <li class="home-button"><a href="#home">Home</a></li>
                 <li><a href="#about-us">About Us</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#team">Team</a></li>
@@ -37,13 +37,15 @@
         </div>
         <!-- WELCOME PAGE -->
         <div class="welcome-container">
-            <h1 class="welcome-title">
-                Welcome to Three Star Media
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam, dolorum, perferendis ullam exercitationem neque quisquam rerum reiciendis ipsum accusantium nihil qui voluptate facere mollitia assumenda voluptatum voluptatibus eos tempora.
-            </p>
-            <button type="button">Connect with us <i class="fa fa-play"></i></button>
+            <div class="welcome-information">
+                <h1 class="welcome-title">
+                    Welcome to Three Star Media
+                </h1>
+                <p class="welcome-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam, dolorum, perferendis ullam exercitationem neque quisquam rerum reiciendis ipsum accusantium nihil qui voluptate facere mollitia assumenda voluptatum voluptatibus eos tempora.
+                </p>
+                <button type="button" class="connect-button">Connect with us <i class="fa fa-play"></i></button>
+            </div>
         </div>
     </header>
     <!-- OTHER PAGES -->
