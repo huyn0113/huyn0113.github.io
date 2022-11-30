@@ -156,4 +156,43 @@ a:hover {
     padding: 20px 15px;
 }
 
-/* SERVICE ONE */
+/* SERVICES */
+
+/* APPLIES BACKGROUND COLOR TO ALL SERVICE BLOCKS */
+
+.service-one, .service-two, .service-three, .service-four, .service-five {
+    display: block;
+    background-color: #ffe6ac;
+}
+
+.service-images{
+    display: block;
+    margin: auto;
+    width: 100%;
+
+}
+
+.service-information {
+    padding: 20px;
+}
+
+.service-information h3 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.service-information p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.service-button {
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
