@@ -45,15 +45,10 @@ a:hover {
    /* padding-top: 20% */
 }
 
-
-
-
-
-
-
 /* adds flex to search bar */
 .search-bar {
     display: flex;
+    padding-bottom: 8px;
 }
 
 /* widens search bar */
@@ -73,17 +68,37 @@ a:hover {
 .welcome-container {
     background-image: url(/final_project/images/main-banner.jpg);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    
+    background-size: cover;
+    height: 500px;  
+    padding-top: 60px;
 }
 
 .welcome-information {
-    padding: 50px 10px;
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px 10px; 
+
 }
 
 .welcome-title {
     color: white;
     font-size: 60px;
     font-weight: bold;
+    line-height: 140%;
+    padding-bottom: 20px;
+}
+
+.welcome-paragraph {
+    color: white;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.connect-button {
+    padding: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: #c78c06;
+    text-decoration: none;
 }
