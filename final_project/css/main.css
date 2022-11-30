@@ -196,3 +196,39 @@ a:hover {
     padding: 30px;
     font-size: 20px;
 }
+
+/****** PAGE FIVE ******/
+
+.vision-container {
+    background-image: url(/final_project/images/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+}
+
+.vision-information {
+    padding: 15px;
+}
+
+.vision-information p {
+    line-height: 20px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.vision-title {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.vision-button {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 35px;
+    font-size: 20px;
+    border: 1px solid #c78c06;
+}
+
