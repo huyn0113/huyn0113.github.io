@@ -71,12 +71,13 @@ a:hover {
     background-size: cover;
     height: 500px;  
     padding-top: 60px;
+    padding-bottom: 25px;
 }
 
 .welcome-information {
     display: block;
     background: rgba(0, 0, 0, 0.6);
-    padding: 50px 10px; 
+    padding: 60px 15px; 
 
 }
 
@@ -102,3 +103,9 @@ a:hover {
     background-color: #c78c06;
     text-decoration: none;
 }
+
+.fa-play {
+    padding-left: 10px;
+}
+
+/****** PAGE THREE ******/
