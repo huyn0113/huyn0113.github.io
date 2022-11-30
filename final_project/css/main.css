@@ -232,3 +232,50 @@ a:hover {
     border: 1px solid #c78c06;
 }
 
+/****** PAGE SIX ******/
+
+.team-title {
+    font-weight: 700;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.team-container {
+    padding: 10px;
+}
+.team-one, .team-two {
+    background-color: #ffe6ac;
+}
+
+.photo-one, .photo-two {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.team-info {
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-info h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    
+}
+
+.team-info h4 {
+    font-weight: 700;
+}
+
+hr {
+    border: 1px solid #c78c06;
+}
+
+.team-info p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
