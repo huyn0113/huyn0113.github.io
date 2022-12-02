@@ -360,4 +360,22 @@ table {
     width: 100%;
 }
 
+/****** LOCATION ******/
+
+.location-container {
+    padding: 15px;
+}
+
+.location-container h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
 
