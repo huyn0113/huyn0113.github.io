@@ -378,4 +378,29 @@ iframe {
     width: 100%;
 }
 
+footer {
+    background-color: #222;
+}
+
+.footer-text {
+    padding-left: 15px;
+    padding-top: 25px;
+    color: #c78c06;
+}
+
+.footer-text p {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer-link a:visited {
+    color: #c78c06;
+}
+
+.footer-link a:hover {
+    background-color: #c78c06;
+    color: white;
+}
+
+
 
