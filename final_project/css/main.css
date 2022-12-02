@@ -331,3 +331,33 @@ textarea {
     font-weight: 500;
     font-size: 25px;
 }
+
+/****** HOURS OF OPERATIONS PAGE ******/
+
+.hours-container {
+    padding: 15px;
+}
+
+.hours-container h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    padding: 20px;
+    font-weight: 500;
+
+}
+
+th {
+    background-color: #ffe6ac;
+}
+
+
+table {
+    width: 100%;
+}
+
+
