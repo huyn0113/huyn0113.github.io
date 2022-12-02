@@ -279,3 +279,55 @@ hr {
     line-height: 20px;
     font-weight: 500;
 }
+
+/****** FORM PAGE ******/
+
+.contact-container {
+    padding: 15px;
+}
+
+.contact-us-title {
+    font-weight: 700;
+    font-size: 3rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contact-form h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 20pt;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+
+.form-section {
+    padding-bottom: 10px;
+}
+
+.form {
+    font-weight: 500;
+    
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding: 60px;
+}
+
+.contact-button {
+    background-color: #222;
+    color: #c78c06;
+    font-weight: 500;
+    font-size: 25px;
+}
