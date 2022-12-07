@@ -1,5 +1,14 @@
+/************************** MOBILE **************************/
+
+/* SETS FONT TYPE FOR ENTIRE PAGE */ 
 body {
     font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* ADDS PADDING TO ALL ARROW BUTTONS */
+.fa-play {
+    padding-left: 10px;
 }
 
 /* STYLES NAVIGATION BAR */
@@ -32,7 +41,7 @@ li a {
     display: block;
 }
 
-
+/*******************************************************************/
 
 
 /* HOVER */
@@ -45,26 +54,29 @@ a:hover {
    /* padding-top: 20% */
 }
 
-/* adds flex to search bar */
+
+
+/* ADDS FLEX & SIZES SEARCH BOX */
 .search-bar {
     display: flex;
     padding-bottom: 8px;
 }
 
-/* widens search bar */
+/* SIZES SEARCH BOX TO CONTAINER */
 .search-bar input {
     flex-grow: 1;
 }
 
-/* sizes and colors search icon */
+/* SIZES & COLOURS SEARCH BUTTON ICON */
 .fa-search {
     color: #c78c06;
     border: 1px solid #c78c06;
     padding: 10px;
 }
 
-/****** PAGE TWO ******/
+/***************** WELCOME PAGE *****************/
 
+/* SETS AND SIZES BACKGROUND IMAGE */
 .welcome-container {
     background-image: url(/final_project/images/main-banner.jpg);
     background-repeat: no-repeat;
@@ -74,6 +86,7 @@ a:hover {
     padding-bottom: 25px;
 }
 
+/* SETS AND SIZES CONTAINER HOLDING THE TEXT */
 .welcome-information {
     display: block;
     background: rgba(0, 0, 0, 0.6);
@@ -81,6 +94,7 @@ a:hover {
 
 }
 
+/* SIZES TITLE */
 .welcome-title {
     color: white;
     font-size: 60px;
@@ -89,6 +103,7 @@ a:hover {
     padding-bottom: 20px;
 }
 
+/* SIZES LOREM PARAGRAPH */
 .welcome-paragraph {
     color: white;
     padding-bottom: 10px;
@@ -96,6 +111,7 @@ a:hover {
     font-size: 14px;
 }
 
+/* SIZES AND CUSTOMIZES CONNECT BUTTON */
 .connect-button {
     padding: 30px;
     font-size: 20px;
@@ -104,36 +120,38 @@ a:hover {
     text-decoration: none;
 }
 
-.fa-play {
-    padding-left: 10px;
-}
+/***************** ABOUT US PAGE *****************/
 
-/****** PAGE THREE ******/
-
+/* SETS AND SIZES CONTAINER */
 .about-us-container {
     display: block;
     background-color: #ffe6ac;
     padding: 15px;
 }
 
+/* SIZES TITLE */
 .about-us-title {
     font-weight: 700;
     font-size: 3rem;
     padding-bottom: 30px;
 }
 
+/* SIZES & POSITIONS IMAGE */
 .about-us-image {
     display: block;
+    margin: auto;
     width: 100%;
     padding-bottom: 30px;
 }
 
+/* SIZES LOREM TEXT */
 .about-us-text {
     line-height: 20px;
     font-size: 14px;
     font-weight: 500;
 }
 
+/* ADDS PADDING TO EACH PARAGRAPH */
 .p-1 {
     padding-bottom: 15px;
 }
@@ -142,8 +160,9 @@ a:hover {
     padding-bottom: 15px;
 }
 
-/****** PAGE FOUR ******/
+/***************** SERVICES PAGE *****************/
 
+/* SIZES TITLE */
 .services-title {
     font-size: 3rem;
     font-weight: 700;
@@ -151,20 +170,20 @@ a:hover {
     padding-bottom: 25px;
 }
 
+/* SIZES CONTAINER */
 .services-container {
     display: block;
     padding: 20px 15px;
 }
 
-/* SERVICES */
-
-/* APPLIES BACKGROUND COLOR TO ALL SERVICE BLOCKS */
-
+/* ALL UNDER ONE CONTAINER */
+/* SETS BACKGROUND COLOR*/
 .service-one, .service-two, .service-three, .service-four, .service-five {
     display: block;
     background-color: #ffe6ac;
 }
 
+/* POSITIONS AND SIZES IMAGES */
 .service-images{
     display: block;
     margin: auto;
@@ -172,10 +191,12 @@ a:hover {
 
 }
 
+/* ADDS PADDING */
 .service-information {
     padding: 20px;
 }
 
+/* SIZES TITLES */
 .service-information h3 {
     padding-top: 15px;
     padding-bottom: 20px;
@@ -183,6 +204,7 @@ a:hover {
     font-size: 2rem;
 }
 
+/* SIZES LOREM */
 .service-information p {
     font-size: 14px;
     font-weight: 500;
@@ -190,6 +212,7 @@ a:hover {
     padding-bottom: 20px;
 }
 
+/* SIZES AND POSITIONS BUTTONS */
 .service-button {
     background-color: #222;
     color: white;
@@ -197,8 +220,9 @@ a:hover {
     font-size: 20px;
 }
 
-/****** PAGE FIVE ******/
+/***************** VISION PAGE *****************/
 
+/* SETS & POSITIONS BACKGROUND IMAGE */
 .vision-container {
     background-image: url(/final_project/images/vision.jpg);
     background-repeat: no-repeat;
@@ -208,15 +232,19 @@ a:hover {
     color: white;
 }
 
+/* ADDS PADDING */
 .vision-information {
     padding: 15px;
 }
 
+/* SIZES LOREM */
 .vision-information p {
     line-height: 20px;
     font-size: 14px;
     padding-bottom: 20px;
 }
+
+/* SIZES TITLE */
 .vision-title {
     font-weight: 700;
     font-size: 2rem;
@@ -224,6 +252,7 @@ a:hover {
     padding-bottom: 20px;
 }
 
+/* SIZES AND CUSTOMIZES BUTTON */
 .vision-button {
     color: white;
     background: rgba(0, 0, 0, 0.6);
@@ -232,33 +261,41 @@ a:hover {
     border: 1px solid #c78c06;
 }
 
-/****** PAGE SIX ******/
+/***************** TEAM PAGE *****************/
 
+/* SIZES AND ADDS PADDING TO TEAM TITLE */
 .team-title {
     font-weight: 700;
     font-size: 3rem;
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
+/* ADDS PADDING TO CONTAINER WITH TEAM MEMBER INFORMATION */
 .team-container {
     padding: 10px;
 }
+
+/* ADDS BACKGROUND COLOUR TO TEAM BOXES */
 .team-one, .team-two {
     background-color: #ffe6ac;
 }
 
+/* SIZES AND CENTERS IMAGES OF TEM MEMBERS */
 .photo-one, .photo-two {
     display: block;
     margin: auto;
     width: 100%;
 }
 
+/* ADDS PADDING TO BOXES WITH TEAM INFORMATION */
 .team-info {
     padding: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+/* SIZES AND ADDS PADDING TO TEAM MEMBER NAMES */
 .team-info h3 {
     font-weight: 700;
     font-size: 2rem;
@@ -266,26 +303,31 @@ a:hover {
     
 }
 
+/* MODIFIES FONT WEIGHT OF TEAM MEMBER TITLES */
 .team-info h4 {
     font-weight: 700;
 }
 
+/* MAKES HR LINE THICKER AND ADDS COLOR */
 hr {
     border: 1px solid #c78c06;
 }
 
+/* SIZES AND AJUSTS LINE HEIGHT OF TEAM INFO PARAGRAPHS */
 .team-info p {
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
 }
 
-/****** FORM PAGE ******/
+/***************** CONTACT PAGE *****************/
 
+/* ADDS PADDING AROUND ENTIRE CONTAINER WITH CONTACT INFO */
 .contact-container {
     padding: 15px;
 }
 
+/* SIZES, ADDS WEIGHT AND PADDING TO CONTACT TITLE */
 .contact-us-title {
     font-weight: 700;
     font-size: 3rem;
@@ -293,12 +335,14 @@ hr {
     padding-bottom: 30px;
 }
 
+/* SIZES, ADDS WEIGHT AND PADDING TO MESSAGE SUBHEADING */
 .contact-form h2 {
     font-weight: 700;
     font-size: 2rem;
     padding-bottom: 20pt;
 }
 
+/* SIZES AND POSITIONS FORM INPUT BOXES */
 input {
     width: 100%;
     padding: 8px;
@@ -307,16 +351,7 @@ input {
     box-sizing: border-box;
 }
 
-
-.form-section {
-    padding-bottom: 10px;
-}
-
-.form {
-    font-weight: 500;
-    
-}
-
+/* SIZES AND POSITIONS MESSAGE BOX */
 textarea {
     box-sizing: border-box;
     width: 100%;
@@ -325,6 +360,18 @@ textarea {
     padding: 60px;
 }
 
+/* ADDS PADDING IN BETWEEN EACH INPUT BOX */
+.form-section {
+    padding-bottom: 10px;
+}
+
+/* ADDS FONT WEIGHT TO FORM TEXTS */
+.form {
+    font-weight: 500;
+    
+}
+
+/* SIZES AND COLORS CONTACT BUTTON */
 .contact-button {
     background-color: #222;
     color: #c78c06;
@@ -334,16 +381,19 @@ textarea {
 
 /****** HOURS OF OPERATIONS PAGE ******/
 
+/* ADDS PADDING TO CONTACT CONTAINER */
 .hours-container {
     padding: 15px;
 }
 
+/* SIZES, ADDS WEIGHT AND PADDING TO CONTACT TITLE */
 .hours-container h2 {
     font-weight: 700;
     font-size: 2rem;
     padding-bottom: 15px;
 }
 
+/* CREATES TABLE WITH BORDER AND PADDING */
 table, tr, td, th {
     border: 1px solid black;
     padding: 20px;
@@ -351,52 +401,63 @@ table, tr, td, th {
 
 }
 
+/* ADDS BACKGROUND COLOR TO DAYS AND HOURS CATEGORY */
 th {
     background-color: #ffe6ac;
 }
 
-
+/* SIZES ENTIRE TABLE */
 table {
     width: 100%;
 }
 
-/****** LOCATION ******/
+/****** LOCATION PAGE ******/
 
+/* ADDS PADDING TO LOCATION CONTAINER */
 .location-container {
     padding: 15px;
 }
 
+/* SIZES, ADDS WEIGHT AND MARGIN TO LOCATION TITLE */
 .location-container h2 {
     font-weight: 700;
     font-size: 2rem;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
+/* SIZES AND CENTERS MAP */
 iframe {
     display: block;
     margin: auto;
     width: 100%;
 }
 
+/****** FOOTER ******/
+
+/* CHANGES BACKGROUND COLOR */
 footer {
     background-color: #222;
 }
 
+/* COLORS AND ADDS PADDING TO FOOTER PARAGRAPHS */
 .footer-text {
     padding-left: 15px;
     padding-top: 25px;
     color: #c78c06;
 }
 
+/* CHANGES FONT SIZE AND ADDS MORE PADDING */
 .footer-text p {
     padding-bottom: 20px;
     font-size: 14px;
 }
 
+/* CHANGES VISITED FOOTER LINK TO REMAIN THE SAME COLOR AS TEXT */
 .footer-link a:visited {
     color: #c78c06;
 }
 
+/* CHANGES HOVER BACKGROUND COLOR AND FONT COLOR */
 .footer-link a:hover {
     background-color: #c78c06;
     color: white;
