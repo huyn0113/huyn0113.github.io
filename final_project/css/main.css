@@ -463,3 +463,64 @@ footer {
 
 /************************** DESKTOP **************************/
 
+@media screen and (min-width: 760px) {
+    
+    /* ALIGNING NAVIGATION BAR */
+   
+    .nav-bar li {
+        float: left;
+    }
+
+    .nav-bar a {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .navigation-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        display: block;
+    }
+
+    .search-bar {
+        margin-top: 10px;
+        width: 15%;
+        
+    }
+
+    .fa-search {
+        margin-top: 10px;
+    }
+
+   .logo {
+    display: block;
+    width: 60%;
+    padding-right: 50px;
+   }
+
+   /***************** WELCOME PAGE *****************/
+
+   /* SIZES BACKGROUND IMAGE */
+   .welcome-container {
+    background-position: center;
+    height: 600px;
+   }
+
+    /* SIZES TEXT BOX INFORMATON */
+   .welcome-information {
+    height: 450px;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 100px;
+   }
+
+   .welcome-title {
+    font-size: 6rem;
+    padding-right: 20%;
+   }
+}
