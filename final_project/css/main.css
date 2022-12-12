@@ -43,18 +43,15 @@ li a {
 
 /*******************************************************************/
 
-
 /* HOVER */
 a:hover {
     background-color: #c78c06;
     color: #222;
 }
 
-.home-button a:hover {
-   /* padding-top: 20% */
-}
-
-
+/* .home-button a:hover { 
+     padding-top: 20%
+ } */
 
 /* ADDS FLEX & SIZES SEARCH BOX */
 .search-bar {
@@ -78,12 +75,13 @@ a:hover {
 
 /* SETS AND SIZES BACKGROUND IMAGE */
 .welcome-container {
-    background-image: url(/final_project/images/main-banner.jpg);
+    background-image: url(/images/main-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;  
     padding-top: 60px;
     padding-bottom: 25px;
+   
 }
 
 /* SETS AND SIZES CONTAINER HOLDING THE TEXT */
@@ -465,6 +463,3 @@ footer {
 
 /************************** DESKTOP **************************/
 
-@media screen and (min-width 760px) {
-    
-}
