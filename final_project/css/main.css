@@ -516,11 +516,32 @@ footer {
     height: 450px;
     margin-left: 8%;
     margin-right: 8%;
-    padding-top: 100px;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
    }
 
+   /* RE-SIZES WELCOME TITLE AND ADJUSTS RIGHT PADDING */
    .welcome-title {
     font-size: 6rem;
     padding-right: 20%;
    }
+
+    /* RE-SIZES WELCOME PARAGRAPH AND ADJUSTS BOTTOM PADDING */
+   .welcome-paragraph {
+    font-size: 1rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 25px;
+   }
+
+   /* RE-SIZES CONNECT BUTTON WITH FONT SIZE AND PADDING */
+   .connect-button {
+    font-size: 1.5rem;
+    padding: 40px 40px;
+   }
+
+   /***************** ABOUT US PAGE *****************/
+
+   
 }
