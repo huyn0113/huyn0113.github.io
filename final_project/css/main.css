@@ -566,4 +566,12 @@ footer {
     font-size: 14pt;
     line-height: 25px;
    }
+
+   /* CLEARFIX */
+   .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 }
