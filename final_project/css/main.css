@@ -543,5 +543,27 @@ footer {
 
    /***************** ABOUT US PAGE *****************/
 
-   
+   .about-us-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+   }
+
+   .about-us-image {
+    float: left;
+    width: 50%;
+    margin-right: 15px;
+   }
+
+   .about-us-title {
+    padding-top: 15px;
+    font-size: 4rem;
+    padding-bottom: 40px;
+   }
+
+   .about-us-text {
+    font-size: 14pt;
+    line-height: 25px;
+   }
 }
