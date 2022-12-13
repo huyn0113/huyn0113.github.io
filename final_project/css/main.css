@@ -267,7 +267,7 @@ a:hover {
 }
 
 /* ADDS BACKGROUND COLOUR TO TEAM BOXES */
-.team-one, .team-two {
+.team-info-one, .team-info-two {
     background-color: #ffe6ac;
 }
 
@@ -561,6 +561,12 @@ footer {
     font-size: 14pt;
     line-height: 25px;
    }
+
+   .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
    
   /***************** SERVICE PAGE *****************/
 
@@ -629,17 +635,38 @@ footer {
 .team-container {
     padding-left: 10%;
     padding-right: 10%;
+
 }
 
+.photo-one {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
 
+.team-info-one {
+    display: block;
+    padding-bottom: 21%;
+    padding-top: 40px;
+}
+
+.photo-two {
+    width: 50%;
+    float: right;
+    padding-left: 15px;
+}
+
+.team-info-two {
+    display: block;
+    padding-bottom: 21%;
+    padding-top: 41px;
+}
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
-
-
 
 /***************** CONTACT/LOCATION/OPERATIONS PAGE *****************/
 
