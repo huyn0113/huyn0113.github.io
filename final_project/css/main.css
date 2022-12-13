@@ -464,8 +464,8 @@ footer {
     /* FLOATS LOGO BESIDE HOME BUTTON */
     li img {
         float: left;
-        width: 40%;
-        margin-left: 10px;
+        width: 30%;
+        margin-right: 50px;
         display: block;
     }
 
