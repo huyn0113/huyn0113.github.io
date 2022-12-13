@@ -464,37 +464,38 @@ footer {
         float: left;
     }
 
+    li img {
+        float: left;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search-bar {
+        margin-top: 8px;
+        width: 20%;
+    }
+
+    .fa-search {
+        margin-top: 8px;
+    }
     .nav-bar a {
         display: block;
+        padding-left: 60px;
+        padding-right: 60px;
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 40px;
-        padding-right: 40px;
+    
     }
 
     .navigation-container {
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 100px;
-        padding-right: 100px;
-        display: block;
-    }
+        padding-left: 10%;
+        padding-right: 10%;
 
-    .search-bar {
-        margin-top: 10px;
-        width: 15%;
-        
     }
-
-    .fa-search {
-        margin-top: 10px;
-    }
-
-   .logo {
-    display: block;
-    width: 60%;
-    padding-right: 50px;
-   }
 
    /***************** WELCOME PAGE *****************/
 
@@ -628,11 +629,16 @@ footer {
 .team-container {
     padding-left: 10%;
     padding-right: 10%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-   
 }
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 
 
 /***************** CONTACT/LOCATION/OPERATIONS PAGE *****************/
