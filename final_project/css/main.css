@@ -323,6 +323,7 @@ hr {
     font-size: 3rem;
     padding-top: 50px;
     padding-bottom: 30px;
+    padding-left: 15px;
 }
 
 /* SIZES, ADDS WEIGHT AND PADDING TO MESSAGE SUBHEADING */
@@ -619,8 +620,66 @@ footer {
 .team-container {
     padding-left: 10%;
     padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(100px3, 1fr);
+    grid-template-areas: 
+    'team-title team-title'
+    'photo-one team-info-one'
+    'team-info-two photo-two';
 }
 
+.team-title {
+    grid-area: team-title;
+}
+
+.photo-one {
+    grid-area: photo-one;
+}
+
+.photo-two {
+    grid-area: photo-two;
+}
+
+.team-info .one {
+    grid-area: team-info-one;
+}
+
+.team-info .two {
+    grid-area: team-info-two;
+}
+
+/***************** CONTACT/LOCATION/OPERATIONS PAGE *****************/
+
+.final-page {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(100px 3, 1fr);
+    grid-template-areas:
+    'contact-title contact-title'
+    'contact-form map'
+    'time time' ;
+}
+
+.contact-us-title {
+    grid-area: contact-title;
+}
+
+.contact-container {
+    grid-area: contact-form;
+}
+
+.location-container {
+    grid-area: map;
+}
+
+.hours-container {
+    grid-area: time;
+}
+
+/***************** FOOTER PAGE *****************/
 
 
 }
