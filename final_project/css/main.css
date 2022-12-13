@@ -11,22 +11,20 @@ body {
     padding-left: 10px;
 }
 
-/* STYLES NAVIGATION BAR */
-
+/* STYLES NAVIGATION BACKGROUND COLOR AND PADDING */
 .navigation-container {
     background-color: #222;
     padding: 15px;
 }
 
-/* CENTERS NAV CATEGORIES */
-
+/* CENTERS NAV CATEGORIES AND ADDS LINE HEIGHT IN BETWEEN CATEGORIES */
 ul {
     display: block;
     text-align: center;
     line-height: 50px;
 }
 
-/* STYLES NAVIGATION AND TEXT */
+/* STYLES NAVIGATION TEXT, INCREASES FONT SIZE, ADDS COLOR AND REMOVES UNDERLINES */
 li a {
     display: block;
     text-decoration: none;
@@ -34,12 +32,12 @@ li a {
     color: #c78c06;
 }
 
-/* FLOATS LOGO IN LEFT FOR HOVER */
+/* TARGETS AND ADDS DISPLAY TO IMAGE FOR HOVER TO FUNCTION */
 li img {
     display: block;
 }
 
-/* HOVER */
+/* ADDS HOVER TO CATEGORIES  */
 a:hover {
     background-color: #c78c06;
     color: #222;
@@ -56,7 +54,7 @@ a:hover {
     flex-grow: 1;
 }
 
-/* SIZES & COLOURS SEARCH BUTTON ICON */
+/* SIZES & COLORS SEARCH BUTTON ICON */
 .fa-search {
     color: #c78c06;
     border: 1px solid #c78c06;
@@ -65,7 +63,7 @@ a:hover {
 
 /***************** WELCOME PAGE *****************/
 
-/* SETS AND SIZES BACKGROUND IMAGE */
+/* SETS AND SIZES BACKGROUND IMAGE BY USE OF PADDING AND HEIGHT */
 .welcome-container {
     background-image: url(/images/main-banner.jpg);
     background-repeat: no-repeat;
@@ -76,7 +74,7 @@ a:hover {
    
 }
 
-/* SETS AND SIZES CONTAINER HOLDING THE TEXT */
+/* SETS AND SIZES CONTAINER HOLDING THE TEXT, USES RGBA TO SET OPACITY BACKGROUND*/
 .welcome-information {
     display: block;
     background: rgba(0, 0, 0, 0.6);
@@ -84,7 +82,7 @@ a:hover {
 
 }
 
-/* SIZES TITLE */
+/* SIZES TITLE AND ADDS COLOR */
 .welcome-title {
     color: white;
     font-size: 60px;
@@ -93,7 +91,7 @@ a:hover {
     padding-bottom: 20px;
 }
 
-/* SIZES LOREM PARAGRAPH */
+/* SIZES LOREM PARAGRAPH AND ADDS COLOR */
 .welcome-paragraph {
     color: white;
     padding-bottom: 10px;
@@ -166,14 +164,14 @@ a:hover {
     padding: 20px 15px;
 }
 
-/* ALL UNDER ONE CONTAINER */
-/* SETS BACKGROUND COLOR*/
+/* ALL UNDER ONE CONTAINER FOR EASY TARGETTING */
+/* SETS BACKGROUND COLOR AND SETS BLOCK DISPLAY*/
 .service-one, .service-two, .service-three, .service-four, .service-five {
     display: block;
     background-color: #ffe6ac;
 }
 
-/* POSITIONS AND SIZES IMAGES */
+/* POSITIONS AND SIZES IMAGES TO CONTAINER */
 .service-images{
     display: block;
     margin: auto;
@@ -181,12 +179,12 @@ a:hover {
 
 }
 
-/* ADDS PADDING */
+/* ADDS PADDING TO SERVICE INFORMATION */
 .service-information {
     padding: 20px;
 }
 
-/* SIZES TITLES */
+/* SIZES SUB TITLES */
 .service-information h3 {
     padding-top: 15px;
     padding-bottom: 20px;
@@ -222,7 +220,7 @@ a:hover {
     color: white;
 }
 
-/* ADDS PADDING */
+/* ADDS PADDING TO VISION INFORMATION */
 .vision-information {
     padding: 15px;
 }
@@ -266,12 +264,12 @@ a:hover {
     padding: 10px;
 }
 
-/* ADDS BACKGROUND COLOUR TO TEAM BOXES */
+/* ADDS BACKGROUND COLOR TO TEAM BOXES */
 .team-info-one, .team-info-two {
     background-color: #ffe6ac;
 }
 
-/* SIZES AND CENTERS IMAGES OF TEM MEMBERS */
+/* SIZES AND CENTERS IMAGES OF TEAM MEMBERS */
 .photo-one, .photo-two {
     display: block;
     margin: auto;
@@ -458,28 +456,31 @@ footer {
 
 @media screen and (min-width: 760px) {
     
-    /* ALIGNING NAVIGATION BAR */
-   
+    /* FLOATS NAVIGATION BAR TO MAKE IT HORIZONTAL */
     .nav-bar li {
         float: left;
     }
 
+    /* FLOATS LOGO BESIDE HOME BUTTON */
     li img {
         float: left;
-        width: 60%;
+        width: 40%;
+        margin-left: 10px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 
+    /* RESIZES SEARCH BAR */
     .search-bar {
         margin-top: 8px;
         width: 20%;
     }
 
+    /* RESIZES SEARCH BAR ICON */
     .fa-search {
         margin-top: 8px;
     }
+
+    /* ADDS SPACE IN BETWEEN CATEGORIES WITH PADDING */
     .nav-bar a {
         display: block;
         padding-left: 60px;
@@ -489,6 +490,7 @@ footer {
     
     }
 
+    /* CENTERS NAVIGATION WITH PADDING */
     .navigation-container {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -499,7 +501,7 @@ footer {
 
    /***************** WELCOME PAGE *****************/
 
-   /* SIZES BACKGROUND IMAGE */
+   /* RE-SIZES BACKGROUND IMAGE */
    .welcome-container {
     background-position: center;
     height: 600px;
@@ -537,6 +539,7 @@ footer {
 
    /***************** ABOUT US PAGE *****************/
 
+   /* RE-SIZES ABOUT US CONTAINER WITH PADDING AND MARGIN */
    .about-us-container {
     display: inline-block;
     padding-left: 10%;
@@ -545,23 +548,27 @@ footer {
     margin-bottom: 10px;
    }
 
+   /* FLOATS IMAGE TO THE LEFT AND SETS SIZING TO HALF */
    .about-us-image {
     float: left;
     width: 50%;
     margin-right: 15px;
    }
 
+   /* RE-SIZES ABOUT US TITLE AND ADDS PADDING*/
    .about-us-title {
     padding-top: 15px;
     font-size: 4rem;
     padding-bottom: 40px;
    }
 
+    /* RE-SIZES ABOUT US TEXT AND ADJUSTS LINE HEIGHT */
    .about-us-text {
     font-size: 14pt;
     line-height: 25px;
    }
 
+    /* CLEARFIX */
    .clearfix::after {
     content: "";
     clear: both;
@@ -570,6 +577,7 @@ footer {
    
   /***************** SERVICE PAGE *****************/
 
+  /* SETS GRID AREA TO SECTIONS OF SERVICE PAGE */
   .services-title {
     grid-area: title;
   }
@@ -594,12 +602,13 @@ footer {
     grid-area: box-5;
   }
 
+  /* SETS GRID DISPLAY AND ALIGNS SERVICES CONTAINER */
   .services-container {
     display: grid;
     padding-left: 10%;
     padding-right: 10%;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(100px 3, 1fr);
+    grid-template-rows: auto repeat(3, 1fr);
     gap: 15px;
     grid-template-areas: 
     'title title title title title title'
@@ -607,6 +616,7 @@ footer {
     'box-3 box-3 box-4 box-4 box-5 box-5';
   }
 
+  /* ADJUSTS BUTTONS DUE TO MISALIGNMENT */
   .service-button {
     width: 100%;
   }
@@ -617,51 +627,60 @@ footer {
 
 /***************** VISION PAGE *****************/
 
+/* ADDS MORE PADDING TO VISION INFORMATION */
 .vision-information {
     padding-left: 10%;
     padding-right: 10%;
 }
 
+/* RE-SIZES VISION TITLE */
 .vision-title {
     font-size: 2.3rem;
 }
 
+/* RE-SIZES VISION PARAGRAPH */
 .vision-container p {
     font-size: 0.9rem;
 }
 
 /***************** TEAM PAGE *****************/
 
+/* ADDS PADDING TO TEAM CONTAINER TO ALIGN WITH REST OF LAYOUT */
 .team-container {
     padding-left: 10%;
     padding-right: 10%;
 
 }
 
+/* FLOATS IMAGE AND SIZES OF FIRST TEAM MEMBER */
 .photo-one {
     width: 50%;
     float: left;
     padding-right: 15px;
 }
 
+/* ADJUSTS TEAM MEMBER TEXT TO ALIGN WITH IMAGE */
 .team-info-one {
     display: block;
     padding-bottom: 21%;
     padding-top: 40px;
 }
 
+/* FLOATS IMAGE AND SIZES OF SECOND TEAM MEMBER */
 .photo-two {
     width: 50%;
     float: right;
     padding-left: 15px;
 }
 
+/* ADJUSTS TEAM MEMBER TEXT TO ALIGN WITH IMAGE */
 .team-info-two {
     display: block;
     padding-bottom: 21%;
     padding-top: 41px;
 }
 
+/* CLEARFIX */
 .clearfix::after {
     content: "";
     clear: both;
@@ -670,18 +689,21 @@ footer {
 
 /***************** CONTACT/LOCATION/OPERATIONS PAGE *****************/
 
+/* SETS EVERYTHING UNDER ONE CONTAINER FOR GRID*/
+/* SETS UP GRID AND ALIGNS SECTIONS */
 .final-page {
     padding-left: 10%;
     padding-right: 10%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(100px 3, 1fr);
+    grid-template-rows: auto repeat(3, 1fr);
     grid-template-areas:
     'contact-title contact-title'
     'contact-form map'
     'time time' ;
 }
 
+/* GIVES GRID AREAS TO EACH SECTION */
 .contact-us-title {
     grid-area: contact-title;
 }
@@ -700,6 +722,7 @@ footer {
 
 /***************** FOOTER PAGE *****************/
 
+/* RE-SIZES FOOTER PADDING TO ALIGN WITH REST OF PAGE */
 .footer-text {
     padding-left: 11%;
     padding-top: 40px;
