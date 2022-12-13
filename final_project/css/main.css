@@ -677,7 +677,7 @@ footer {
     /* ADJUSTS TEAM MEMBER TEXT TO ALIGN WITH IMAGE */
     .team-info-one {
         display: block;
-        padding-bottom: 21%;
+        padding-bottom: 15%;
         padding-top: 40px;
     }
 
@@ -691,8 +691,33 @@ footer {
     /* ADJUSTS TEAM MEMBER TEXT TO ALIGN WITH IMAGE */
     .team-info-two {
         display: block;
-        padding-bottom: 21%;
-        padding-top: 41px;
+        padding-bottom: 18.5%;
+        padding-top: 95px;
+    }
+
+    /* CHANGES FONT SIZE AND ADDS PADDING TO TEAM MEMBER TEXT AND LINE */
+    .team-info-one,
+    .team-info-two p {
+        font-size: 1rem;
+    }
+
+    .team-info-one h3 {
+        font-size: 3rem;
+        padding-bottom: 30px;
+    }
+
+    .team-info-two h3 {
+        font-size: 3rem;
+        padding-bottom: 30px;
+    }
+
+    .team-info-one,
+    .team-info-two h4 {
+        font-size: 1.5rem;
+    }
+
+    hr {
+        margin-bottom: 15px;
     }
 
     /* CLEARFIX */
