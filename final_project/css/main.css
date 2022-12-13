@@ -65,7 +65,7 @@ a:hover {
 
 /* SETS AND SIZES BACKGROUND IMAGE BY USE OF PADDING AND HEIGHT */
 .welcome-container {
-    background-image: url('/images/main-banner.jpg');
+    background-image:url(../images/main-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -217,7 +217,7 @@ a:hover {
 
 /* SETS & POSITIONS BACKGROUND IMAGE */
 .vision-container {
-    background-image: url('/images/vision.jpg');
+    background-image: ('/images/vision.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
