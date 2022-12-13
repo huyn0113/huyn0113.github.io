@@ -600,6 +600,14 @@ footer {
     'box-3 box-3 box-4 box-4 box-5 box-5';
   }
 
+  .service-button {
+    width: 100%;
+  }
+
+  .service-four p {
+    margin-bottom: 5%;
+  }
+
 /***************** VISION PAGE *****************/
 
 .vision-information {
