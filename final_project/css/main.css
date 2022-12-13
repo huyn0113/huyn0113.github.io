@@ -681,5 +681,9 @@ footer {
 
 /***************** FOOTER PAGE *****************/
 
-
+.footer-text {
+    padding-left: 11%;
+    padding-top: 40px;
+}
+    
 }
