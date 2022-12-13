@@ -279,14 +279,14 @@ a:hover {
 }
 
 /* ADDS PADDING TO BOXES WITH TEAM INFORMATION */
-.team-info {
+.team-info-one, .team-info-two {
     padding: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 /* SIZES AND ADDS PADDING TO TEAM MEMBER NAMES */
-.team-info h3 {
+.team-info-one, .team-info-two, h3 {
     font-weight: 700;
     font-size: 2rem;
     padding-bottom: 10px;
@@ -294,7 +294,7 @@ a:hover {
 }
 
 /* MODIFIES FONT WEIGHT OF TEAM MEMBER TITLES */
-.team-info h4 {
+.team-info-one, .team-info-two, h4 {
     font-weight: 700;
 }
 
@@ -304,7 +304,7 @@ hr {
 }
 
 /* SIZES AND AJUSTS LINE HEIGHT OF TEAM INFO PARAGRAPHS */
-.team-info p {
+.team-info-one, .team-info-two, p {
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
@@ -630,32 +630,10 @@ footer {
     padding-right: 10%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(100px3, 1fr);
-    grid-template-areas: 
-    'team-title team-title'
-    'photo-one team-info-one'
-    'team-info-two photo-two';
+    grid-template-rows: repeat(3, 1fr);
+   
 }
 
-.team-title {
-    grid-area: team-title;
-}
-
-.photo-one {
-    grid-area: photo-one;
-}
-
-.photo-two {
-    grid-area: photo-two;
-}
-
-.team-info .one {
-    grid-area: team-info-one;
-}
-
-.team-info .two {
-    grid-area: team-info-two;
-}
 
 /***************** CONTACT/LOCATION/OPERATIONS PAGE *****************/
 
